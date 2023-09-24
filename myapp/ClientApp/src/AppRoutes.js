@@ -1,12 +1,13 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
-import { Home } from "./components/Home";
+import Home from "./components/Home";
 import UNA from "./components/UNA";
 import Therians from "./components/Therians";
 import RedBlok from "./components/RedBlok";
 import Karmans from "./components/Karmans";
 import Cogs from "./components/Cogs";
 import ONI from "./components/ONI";
+import About from "./components/About";
 
 const AppRoutes = [
   {
@@ -44,6 +45,10 @@ const AppRoutes = [
   {
     path: 'ONI',
     element: <ONI />
+  },
+  {
+    path: 'About',
+    element: <About />
   }
 ];
 
